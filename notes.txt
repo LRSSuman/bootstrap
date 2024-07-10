@@ -1,0 +1,73 @@
+typography:
+    container - it give fixed width to a content by specific device
+    container-fluid - it not give fixed width
+
+    h1 - h6
+    display1 - display6 (its also like h class but it is not much bold)
+
+background and colors:
+    muted - ash
+    primary - blue
+    success - green
+    info - skyblue
+    warning - yellow
+    danger - red
+    secondary - light ash
+    white - white color
+    dark - black color
+    light - white color
+
+    text-color - for font
+    bg-color - for background
+
+grid system:
+    --> specify row and column in container
+    --> you can seperate upto 12 column, after 12 it move to next row
+    --> inside row it default take all content in row so specify col for column
+    
+padding:
+    p-0 - p-5
+    px - for horizontal
+    py - for vertical
+    ps - start/left
+    pe - end/right
+    pt - top
+    pb - bottom
+
+margin:
+    m-0 - m-5
+
+responsive class:
+    md - medium device (tablet)
+    sm - small device (mobile landscape)
+    lg - large device (desktop)
+
+flex-box layout:
+    d-flex - display flex
+    justify-content-end/center/start
+    responsive (justify-content-md-center)
+
+image:
+    img-fluid - it change into responsive image tag. it fixed under the col (max-width:100%,height:auto)
+    rounded - rounded corner
+
+cards:
+    card - it display card like structure
+    card-body - it give padding to content
+    card-title - it display like title
+    card-text - normal text
+
+forms:
+    form-group - to seperate a form (label/input)
+    form-control - used for input tags
+    btn - used for button tags
+    btn-primary - we can use color
+
+fixed and sticky header:
+    fixed-top - fixed in top
+    use custom css for main content alignment
+    sticky-top - to avoid custom css for fixed-top
+
+height and width:
+    h-100 - it take 100% height
+    w-100 - it take 100% width
