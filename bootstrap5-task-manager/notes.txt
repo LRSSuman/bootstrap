@@ -1,0 +1,98 @@
+Navbar:
+    1. navbar
+    2. navbar-dark - used to specify dark, so content display in white
+    3. navbar-brand - used to display white color text, it remove underline in anchor tag
+    4. navbar-nav - used to specify navlinks in unorder list
+    5. nav-item - used to specify a nav link list item
+    6. nav-link - used to specify nav links in anchor tags
+    7. active - used to specify active linknavbar-expand-lg
+    8. navbar-expand-lg - used to specify dispaly navbar content left to right in lg, In sm it display top to bottom
+
+Navbar Toggler:
+    1. navbar-toggler - used to specify navbar toggler button, and adopt to dark theme, it display in small device only
+    2. navbar-toggler-icon - used to specify hamburger icon
+    3. collapse - used to toggle visibility of content
+    4. navbar-collapse - used to hide in small screen
+    5. data-bs-toggle="collapse" - used to specify in toggle button, got toggle functionality for collapse
+    6. data-bs-target="#navbarNav" - used for specifying which content should br hide or display, id name should be specified in collapse content
+
+Breadcrumb:
+    1. breadcrumb - used to specify breadcrumb
+    2. breadcrumb-items - used to specify breadcrumb items
+    3. specify item without a tag to specify current page
+
+Buttons:
+    1. btn - to specify button
+    2. btn-color - to specify color
+
+Cards:
+    1. card - to specify the card
+    2. card-heading - to specify the card heading
+    3. card-body - to specify the card body 
+
+List Groups:
+    1.list-group - to specify list group
+    2.list-group-item - to specify list group item
+    3.list-group-flush - to remove some border and rounded corner
+
+Badges:
+    1.badge - to specify badge
+    2.rounded-pill - used for tablet structure
+
+Modal:
+    1.modal - used to specify modal, and add an id for modal
+    2.modal-dialog - used for specifying position and size for modal
+    3.modal-content - inside modal content we specify header, body and all
+    4.modal-header - used for modal header
+    5. *for development we can give inline css display:block to make visible modal*
+    6.modal-body - used for modal body
+    7.modal-footer - used for modal footer
+    8.modal-title - used for modal title (gives padding to top and bottom)
+    9.data-bs-dismiss='modal' - used for close button in modal
+    10.btn-close - used for x mark icon
+
+Dropdowns:
+    1.dropdown - used to specify dropdown
+    2.dropdown-toggle - used to specify dropdown toggle btn
+    3.dropdown-menu - used for specify dropdown menu
+    4.dropdown-item - used for specify dropdown item
+    5.dropdown-divider - used in specify horizontal line in hr tag
+
+Navs and Tabs:
+    1.nav - used to specify nav, display left to right order
+    2.nav-tabs - used to specify nav tabs
+    3.nav-item - used to specify nav item
+    4.nav-link - used to specify nav link
+    5.tab-content - used for tab content
+    6.fade - used for fade animation
+    7.show - used to active fade animation
+
+Pagination:
+    1.pagination - used to specify pagination
+    2.page-item - used to specify page item
+    3.page-link - used to specify page link
+    4.disables - used to specify non clickable item
+
+Tooltips:
+    data-bs-toggle="tooltip"
+    data-bs-title="Navigating to Documents Page"
+    data-bs-placement="top" - show in top
+
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (
+            tooltipTriggerEl
+        ) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+Popovers:
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>

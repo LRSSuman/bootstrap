@@ -59,7 +59,9 @@ cards:
 
 forms:
     form-group - to seperate a form (label/input)
+    form-label - used for label tags
     form-control - used for input tags
+    form-select - used for select tags
     btn - used for button tags
     btn-primary - we can use color
 
