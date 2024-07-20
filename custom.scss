@@ -1,0 +1,20 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+$body-bg: #000;
+
+$primary: orange;
+
+$custom-color: (
+    'sample-primary': #900,
+    'sample-blue': rgb(15, 19, 255),
+);
+
+// merge map
+$theme-colors: map-merge($theme-colors, $custom-color);
+
+// remove properties from map
+// $theme-colors: map-remove($theme-colors, 'info', 'light', 'dark');
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
